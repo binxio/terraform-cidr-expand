@@ -1,7 +1,6 @@
 # Read more about private google access at https://cloud.google.com/vpc/docs/configure-private-google-access?hl=en#config
 module "cidr_restricted_googleapis" {
-  source = "../../"
-  # source = "git::https:/github.com/binxio/terraform-cidr-expand.git?ref=1.0.0"
+  source = "git::https:/github.com/binxio/terraform-cidr-expand.git?ref=1.1.0"
 
   cidr = "199.36.153.4/30"
 }

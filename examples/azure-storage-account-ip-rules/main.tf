@@ -1,6 +1,5 @@
 module "example_ip_rules_expand" {
-  source = "../../modules/azure-storage-account-ip-rules-expand"
-  # source = "git::https:/github.com/binxio/terraform-cidr-expand/modules/azure-storage-account-ip-rules-expand.git?ref=1.0.0"
+  source = "git::https:/github.com/binxio/terraform-cidr-expand/modules/azure-storage-account-ip-rules-expand.git?ref=1.1.0"
 
   address_prefixes = ["1.1.1.0/29", "2.2.2.0/30", "3.3.3.0/31", "4.4.4.0/32"]
 }
