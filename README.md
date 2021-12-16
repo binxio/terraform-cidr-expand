@@ -17,7 +17,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cidr"></a> [cidr](#input\_cidr) | The IP address range in CIDR notation. Required format: '0.0.0.0/0' | `string` | n/a | yes |
+| <a name="input_cidr"></a> [cidr](#input\_cidr) | The IP address range in CIDR notation. Required format: '0.0.0.0/0' (IPv4) or '::/0' (IPv6) | `string` | n/a | yes |
 
 ## Outputs
 
